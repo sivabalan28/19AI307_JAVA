@@ -22,21 +22,32 @@ III.	Call the displayDetails() method for each student.
  ```
 /*
 Program to implement a Static Variable using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Sivabalan S
+RegisterNumber:  212222240100
 */
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
+```
+import java.util.Scanner;
+public class Details{
+    String name;
+    static int age=18;
+    public static void main(String args[])
+    {
+        Scanner sc= new Scanner(System.in);
+        Details obj1=new Details();       
+        Details obj2=new Details();
+        obj1.name=sc.nextLine();
+        obj2.name=sc.nextLine();
+        System.out.println("Student name: "+obj1.name+"Age: "+age+"\nStudent name: "+obj2.name+"Age: "+age);
+    }
+}
+```
 
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/e5eb5fff-5e78-4ddd-924a-5ac43cdc222c)
 
 
 ## RESULT:
