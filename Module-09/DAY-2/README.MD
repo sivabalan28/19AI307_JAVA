@@ -17,8 +17,8 @@ To create a java program to write data using ByteArrayOutputStream.
  ```
 /*
 Program to implement a BYTE ARRAY I/O using Java
-Developed by: Onteddu Sirisha
-RegisterNumber: 212222230103
+Developed by: Sivabalan S
+RegisterNumber: 212222240100
 */
 ```
 
